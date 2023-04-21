@@ -1,0 +1,119 @@
+/*header*/
+.header{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+}
+.header-title{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    gap: 70px;
+    margin-left: 70px;
+}
+.header-title a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#show-hide{
+    height: 100px;
+    width: 150px;
+    background: #D9D9D9;
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    opacity: 0;
+}
+#show-hide a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*container*/
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    margin-top: 50px;
+    color: #C31313;
+}
+.form-update{
+    margin-top: 30px;
+    height: 270px;
+    width: 350px;
+    background: #21C3E0;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.text-input input{
+    padding: 5px;
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+.text-input label{
+    float: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.text-textarea textarea{
+    padding: 5px;
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+}
+.text-textarea label{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+form button{
+    padding: 10px;
+    background: #FFBD00;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+}
+form button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/*footer*/
+footer{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    margin-top: 50px;
+}
+.information p{
+    color: white;
+    margin-left: 30px;
+}
+.information p:last-child{
+    margin-left: 1100px;
+    margin-top: -50px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi Tiết Học Bổng</title>
+    <link rel="stylesheet" href="../css/ChiTietHocBong.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header-title">
+        <a href="TrangChu.html">Trang chủ</a>
+        <a href="#">Kết quả học bổng</a>
+        <a href="#">Liên hệ quản trị viên</a>
+        <a href="PhanHoi.html">Phản hồi</a>
+        <a href="#" id="btn-ShowHide">Chào bạn Huỳnh Đức An</a>
+    </div>
+    <div id="show-hide">
+        <a href="DoiMatKhau.html">Thay đổi mật khẩu</a>
+        <a href="ThongTinSinhVien.html">Thông tin cá nhân</a>
+        <a href="TrangChu.html">Đăng xuất</a>
+    </div>
+</div>
+<!--main-->
+<div class="container">
+    <div class="title">
+        <h2>HỌC BỔNG BIDV </h2>
+        <img src="../image/scholarship1.svg">
+    </div>
+    <div class="information-SV">
+        <div class="row">
+            <p>Số lượng tham gia: 1000</p>
+            <p>Hạn: 12/9/2022 đến 22/9/2022</p>
+            <p>
+                Tiêu chí: Có kết quả học tập từ Khá trở lên hoặc có kết quả rèn luyện từ Khá trở lên
+            </p>
+            <p>Đối tượng: Sinh viên khoa Cơ Khí</p>
+            <p>Nhà tài trợ: Ngân hàng BIDV</p>
+        </div>
+        <div class="row">
+            <p>Thông tin học bổng: Ngày 26/9, Tổng công ty Cổ
+                phần Bảo hiểm Bưu điện (PTI) tổ chức lễ trao
+                học bổng cho các em sinh viên tại trường đại học
+                Sư Phạm Kỹ Thuật. Buổi lễ có sự tham gia của ông
+                Bùi Xuân Thu - Tổng giám đốc PTI, đại diện ban giám
+                hiệu các trường cùng các em sinh viên đạt thành tích
+                xuất sắc trong học tập. Tại buổi lễ, PTI sẽ trao 48 suất
+                học bổng cho sinh viên với tổng trị giá 380 triệu đồng.
+            </p>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="information">
+        <p>Hệ thống Phần mềm Quản lý học bổng ; Copyright © 2021.</p>
+        <p>Địa chỉ: số 48 Cao Thắng, TP. Đà Nẵng - Điện thoại: (0236) 3530590 - Email: utemediaonline@gmail.com</p>
+        <p>Thiết kế bởi nhóm 24</p>
+    </div>
+</footer>
+<script>
+    let showBtn = document.getElementById("btn-ShowHide")
+    let itemShowHide = document.getElementById("show-hide")
+    showBtn.onclick = function (){
+            if (getComputedStyle(itemShowHide).opacity == 0){
+                itemShowHide.style.opacity = "1"
+            }else {
+                itemShowHide.style.opacity = "0"
+            }
+
+    }
+</script>
+</body>
+</html>

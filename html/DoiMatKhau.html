@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi mật khẩu</title>
+    <link rel="stylesheet" href="../css/DoiMatKhau.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header-title">
+        <a href="TrangChu.html">Trang chủ</a>
+        <a href="#">Kết quả học bổng</a>
+        <a href="#">Liên hệ quản trị viên</a>
+        <a href="PhanHoi.html">Phản hồi</a>
+        <a href="#" id="btn-ShowHide">Chào bạn Huỳnh Đức An</a>
+    </div>
+    <div id="show-hide">
+        <a href="DoiMatKhau.html">Thay đổi mật khẩu</a>
+        <a href="ThongTinSinhVien.html">Thông tin cá nhân</a>
+        <a href="TrangChu.html">Đăng xuất</a>
+    </div>
+</div>
+<!--main-->
+<div class="container">
+    <div class="title">
+        <h1>ĐỔI MẬT KHẨU</h1>
+    </div>
+    <div class="form-update">
+        <form>
+            <div class="text-input">
+                <label>Mật khẩu cũ</label>
+                <input type="text">
+            </div>
+            <div class="text-input">
+                <label>Mật khẩu mới</label>
+                <input type="text">
+            </div>
+            <div class="text-input">
+                <label>Nhập lại mật khẩu</label>
+                <input type="text">
+            </div>
+            <button>
+                <a href="CapNhatThongTin.html">Xác nhận</a>
+            </button>
+
+        </form>
+    </div>
+
+</div>
+<!--footer-->
+<footer>
+    <div class="information">
+        <p>Hệ thống Phần mềm Quản lý học bổng ; Copyright © 2021.</p>
+        <p>Địa chỉ: số 48 Cao Thắng, TP. Đà Nẵng - Điện thoại: (0236) 3530590 - Email: utemediaonline@gmail.com</p>
+        <p>Thiết kế bởi nhóm 24</p>
+    </div>
+</footer>
+
+<script>
+    let showBtn = document.getElementById("btn-ShowHide")
+    let itemShowHide = document.getElementById("show-hide")
+    showBtn.onclick = function (){
+        if (getComputedStyle(itemShowHide).opacity == 0){
+            itemShowHide.style.opacity = "1"
+        }else {
+            itemShowHide.style.opacity = "0"
+        }
+
+    }
+</script>
+</body>
+</html>

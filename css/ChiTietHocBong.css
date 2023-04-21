@@ -1,0 +1,102 @@
+/*header*/
+.header{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+}
+.header-title{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    gap: 70px;
+    margin-left: 70px;
+}
+.header-title a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#show-hide{
+    height: 100px;
+    width: 150px;
+    background: #D9D9D9;
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    opacity: 0;
+}
+#show-hide a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*container*/
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    margin-top: 50px;
+    color: #C31313;
+}
+.title img{
+    width: 100%;
+    height: 400px;
+}
+.information-SV{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+.row{
+    width: 45%;
+    text-align: left;
+}
+.row p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.container button{
+    background: #EF0909;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.container button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*footer*/
+footer{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    margin-top: 50px;
+}
+.information p{
+    color: white;
+    margin-left: 30px;
+}
+.information p:last-child{
+    margin-left: 1100px;
+    margin-top: -50px;
+}

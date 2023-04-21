@@ -1,0 +1,150 @@
+/*header*/
+.header{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+}
+.header-title{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    gap: 70px;
+    margin-left: 70px;
+}
+.header-title a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#show-hide{
+    height: 100px;
+    width: 150px;
+    background: #D9D9D9;
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    opacity: 0;
+}
+#show-hide a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*container*/
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introduce-search{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.introduce{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    background: #FF8800;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.search{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.search input{
+    width: 320px;
+    height: 30px;
+}
+.search button{
+    background: #138900;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.news{
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}
+.content{
+    width: 30%;
+    margin-left: 40px;
+    float: left;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.banner img{
+    width: 100%;
+}
+.description{
+    margin-left: 10px;
+}
+.description .signUp{
+    background: #EF0909;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 160px;
+    position: absolute;
+    margin-top: -30px;
+    font-weight: bold;
+}
+.description .Lock-signUp{
+    background: #D9D9D9;
+    color: #FF0000;
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 120px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -30px;
+}
+.description h3{
+    color: #C31313;
+}
+.description a{
+    text-decoration: none;
+}
+.description p{
+    font-weight: bold;
+}
+
+/*footer*/
+footer{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+}
+.information p{
+    color: white;
+    margin-left: 30px;
+}
+.information p:last-child{
+    margin-left: 1100px;
+    margin-top: -50px;
+}

@@ -1,0 +1,82 @@
+/*header*/
+.header{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+}
+.header a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/*container*/
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    margin-top: 50px;
+    color: #C31313;
+}
+.form-login{
+    margin-top: 40px;
+    height: 200px;
+    width: 300px;
+    background: #21C3E0;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.text-input label{
+    float: left;
+    margin-left: 5px;
+    margin-top: 30px;
+    padding: 3px;
+    font-weight: bold;
+}
+.text-input input{
+    float: right;
+    margin-top: 30px;
+    margin-right: 5px;
+    height: 20px;
+}
+form button{
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 30px;
+    background: #FFBD00;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/*footer*/
+footer{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+}
+.information p{
+    color: white;
+    margin-left: 30px;
+}
+.information p:last-child{
+    margin-left: 1100px;
+    margin-top: -50px;
+}

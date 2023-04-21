@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chủ Sinh Viên</title>
+    <link rel="stylesheet" href="../css/TrangChu_SinhVien.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header-title">
+        <a href="TrangChu.html">Trang chủ</a>
+        <a href="#">Kết quả học bổng</a>
+        <a href="#">Liên hệ quản trị viên</a>
+        <a href="PhanHoi.html">Phản hồi</a>
+        <a href="#" id="btn-ShowHide">Chào bạn Huỳnh Đức An</a>
+    </div>
+    <div id="show-hide">
+        <a href="DoiMatKhau.html">Thay đổi mật khẩu</a>
+        <a href="ThongTinSinhVien.html">Thông tin cá nhân</a>
+        <a href="TrangChu.html">Đăng xuất</a>
+    </div>
+</div>
+<!--main-->
+<div class="container">
+    <div class="introduce-search">
+        <div class="introduce">
+            <span>Các hoc bổng đang được đăng ký </span>
+        </div>
+        <div class="search">
+            <input type="text">
+            <button>Tìm Kiếm</button>
+        </div>
+    </div>
+    <div class="news">
+        <div class="content">
+            <div class="banner">
+                <img src="../image/scholarship1.svg">
+            </div>
+            <div class="description">
+                <h3>HỌC BỔNG BIDV</h3>
+                <p>Số lượng tham gia: 1000</p>
+                <p>Hạn: 12/8/2022 đến 22/09/2022</p>
+                <p>Số lượng đã đăng ký: 200</p>
+                <a href="#">Xem chi tiết >></a>
+                <button class="signUp">Đăng Ký</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <img src="../image/scholarship1.svg">
+            </div>
+            <div class="description">
+                <h3>HỌC BỔNG BIDV</h3>
+                <p>Số lượng tham gia: 1000</p>
+                <p>Hạn: 12/8/2022 đến 22/09/2022</p>
+                <p>Số lượng đã đăng ký: 200</p>
+                <a href="#">Xem chi tiết >></a>
+                <button class="Lock-signUp">Đã Khoá Đăng Ký</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <img src="../image/scholarship1.svg">
+            </div>
+            <div class="description">
+                <h3>HỌC BỔNG BIDV</h3>
+                <p>Số lượng tham gia: 1000</p>
+                <p>Hạn: 12/8/2022 đến 22/09/2022</p>
+                <p>Số lượng đã đăng ký: 200</p>
+                <a href="#">Xem chi tiết >></a>
+                <button class="signUp">Đăng Ký</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <img src="../image/scholarship1.svg">
+            </div>
+            <div class="description">
+                <h3>HỌC BỔNG BIDV</h3>
+                <p>Số lượng tham gia: 1000</p>
+                <p>Hạn: 12/8/2022 đến 22/09/2022</p>
+                <p>Số lượng đã đăng ký: 200</p>
+                <a href="#">Xem chi tiết >></a>
+                <button class="signUp">Đăng Ký</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <img src="../image/scholarship1.svg">
+            </div>
+            <div class="description">
+                <h3>HỌC BỔNG BIDV</h3>
+                <p>Số lượng tham gia: 1000</p>
+                <p>Hạn: 12/8/2022 đến 22/09/2022</p>
+                <p>Số lượng đã đăng ký: 200</p>
+                <a href="#">Xem chi tiết >></a>
+                <button class="signUp">Đăng Ký</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <img src="../image/scholarship1.svg">
+            </div>
+            <div class="description">
+                <h3>HỌC BỔNG BIDV</h3>
+                <p>Số lượng tham gia: 1000</p>
+                <p>Hạn: 12/8/2022 đến 22/09/2022</p>
+                <p>Số lượng đã đăng ký: 200</p>
+                <a href="#">Xem chi tiết >></a>
+                <button class="Lock-signUp">Đã Khoá Đăng Ký</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="information">
+        <p>Hệ thống Phần mềm Quản lý học bổng ; Copyright © 2021.</p>
+        <p>Địa chỉ: số 48 Cao Thắng, TP. Đà Nẵng - Điện thoại: (0236) 3530590 - Email: utemediaonline@gmail.com</p>
+        <p>Thiết kế bởi nhóm 24</p>
+    </div>
+</footer>
+
+<script>
+    let showBtn = document.getElementById("btn-ShowHide")
+    let itemShowHide = document.getElementById("show-hide")
+    showBtn.onclick = function (){
+        if (getComputedStyle(itemShowHide).opacity == 0){
+            itemShowHide.style.opacity = "1"
+        }else {
+            itemShowHide.style.opacity = "0"
+        }
+
+    }
+</script>
+</body>
+</html>
