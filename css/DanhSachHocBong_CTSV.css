@@ -1,0 +1,156 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{
+    background-color: rgb(221, 255, 255);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Header */
+header{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    background-color: #003C71;
+    align-items: center;
+}
+
+header .right-item{
+    width: 25%;
+    color: white;
+}
+
+header ul.menu{
+    display: flex;
+    list-style: none;
+}
+
+header ul.menu>li{
+    padding: 20px 50px;
+}
+
+.header-content{
+    justify-content: space-between;
+    padding: 10px 100px;  
+
+}
+
+.create-btn{
+    height: 50px;
+    width: 180px;
+    background-color: #FF8800;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 1px black;
+    
+}
+
+.search-btn{
+    height: 50px;
+    width: 220px;
+    background-color: #138900;
+    color: white;
+    font-size: 15px;
+    border: solid 1px black;
+    margin-left: 15px;
+}
+
+.search-text{
+    height: 50px;
+    width: 595px;
+    margin-left: 300px;
+}
+
+/* Content */
+.content{
+    padding: 20px 50px;
+    width: 100%;
+    display: block;
+    padding: 25px 60px;
+}
+
+.content-item{
+    width:30%;
+    margin: 10px 20px;
+    float: left;
+    background-color: white;
+    padding: 10px 0px;
+
+}
+
+.item-img{
+    width: 100%;
+    margin-top: -10px;
+}
+.banner{
+    width: 100%;
+}
+
+.description{
+    padding: 10px;
+}
+
+.content-item h3{
+    color: grey;
+
+}
+
+.content-item p{
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: -5px;
+}
+
+.content-item a{
+    color: #1D0CE9;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: -5px;
+}
+
+.remove-item-btn{
+    background-color: red;
+    color: white;
+    width: 75px;
+    height: 35px;
+    margin-left: 320px;
+}
+
+/* Footer */
+footer{
+    background-color: #003C71;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p{
+    color: black;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background: #003C71;
+    display: flex;
+    padding: 15px 10px;
+}
+
+.information p{
+    color: white;
+    margin-left: 20px;
+    padding: 8px;
+}
+.information p:last-child{
+    margin-left: 1100px;
+    margin-top: -50px;
+}
