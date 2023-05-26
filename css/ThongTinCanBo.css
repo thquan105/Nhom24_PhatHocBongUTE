@@ -1,0 +1,91 @@
+body {
+  background-color: #F1F1F1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+  background-color: #003C71;
+  padding: 10px;
+}
+
+ul li {
+  margin: auto 30px auto 30px;
+}
+
+.container-fluid {
+  flex-grow: 1;
+  margin-top: 30px;
+  border: #001E3C solid;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 20px;
+
+}
+.container-fluid h3 {
+  color: #C31313;
+}
+
+footer {
+  background-color: #003C71;
+  color: white;
+  /* padding: 10px; */
+  text-align: left;
+  padding: 10px;
+  height: fit-content;
+}
+
+.footer p:last-child {
+  text-align: right;
+  text-decoration: #F1F1F1
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+th {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 8em;
+  margin: 0 auto;
+  padding: 0.5em;
+  text-align: center;
+  background-color: #003C71;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+
+.btn:hover {
+  background-color: yellowgreen;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.custom-container {
+  max-width: 960px; /* change this value to adjust the width as needed */
+}
